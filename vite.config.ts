@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/github-repo-explorer/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -14,6 +15,6 @@ export default defineConfig({
   test: {
     environment: "jsdom",
     globals: true,
-    setupFiles: "./setup-vitest.ts",
+    setupFiles: "./src/setup-test.ts",
   },
 } as UserConfig);
