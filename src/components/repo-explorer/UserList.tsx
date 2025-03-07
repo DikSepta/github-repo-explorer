@@ -1,4 +1,4 @@
-import UserRepositories from "@/components/repo-finder/UserRepositories";
+import UserRepositories from "@/components/repo-explorer/UserRepositories";
 import { Accordion } from "@/components/ui/accordion";
 import { GithubUser } from "@/types/github";
 

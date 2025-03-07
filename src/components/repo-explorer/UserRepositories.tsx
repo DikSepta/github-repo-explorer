@@ -1,4 +1,4 @@
-import RepoCard from "@/components/repo-finder/RepoCard";
+import RepoCard from "@/components/repo-explorer/RepoCard";
 import {
   AccordionItem,
   AccordionTrigger,

@@ -1,4 +1,4 @@
-import SearchBar from "@/components/repo-finder/SearchBar";
+import SearchBar from "@/components/repo-explorer/SearchBar";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 

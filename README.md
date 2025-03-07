@@ -50,7 +50,7 @@ pnpm test  # or npm run test / yarn test
 src
 ├── components      # Reusable UI components
 │   ├── ui         # Common UI components (Button, Card, Input, etc.)
-│   ├── repo-finder # Components specific to repository search
+│   ├── repo-explorer # Components specific to repository search
 ├── hooks          # Custom React hooks (e.g., useGithubRepo)
 ├── lib            # Utility functions
 ├── services       # API calls and data fetching (GitHub API)

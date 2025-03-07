@@ -1,4 +1,4 @@
-import RepoFinder from "@/components/repo-finder/RepoFinder";
+import RepoExplorer from "@/components/repo-explorer/RepoExplorer";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
@@ -6,7 +6,7 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <RepoFinder />
+      <RepoExplorer />
     </QueryClientProvider>
   );
 }

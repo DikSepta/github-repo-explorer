@@ -1,4 +1,4 @@
-import RepoCard from "@/components/repo-finder/RepoCard";
+import RepoCard from "@/components/repo-explorer/RepoCard";
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
 

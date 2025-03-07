@@ -1,10 +1,10 @@
-import SearchBar from "@/components/repo-finder/SearchBar";
-import UserList from "@/components/repo-finder/UserList";
+import SearchBar from "@/components/repo-explorer/SearchBar";
+import UserList from "@/components/repo-explorer/UserList";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useSearchUser } from "@/hooks/useSearchUser";
 import { useCallback, useState } from "react";
 
-export default function RepoFinder() {
+export default function RepoExplorer() {
   const [query, setQuery] = useState("");
 
   const { data: listUser, isError, isLoading } = useSearchUser(query);
@@ -16,7 +16,7 @@ export default function RepoFinder() {
   return (
     <div className="flex flex-col py-4 md:py-6 px-4 md:px-12">
       <div className="text-amber-600 text-center text-3xl font-bold mb-6">
-        Github Repo Finder
+        Github Repo Explorer
       </div>
       <SearchBar isLoading={isLoading} onSearch={handleSearch} />
       {query !== "" ? (
